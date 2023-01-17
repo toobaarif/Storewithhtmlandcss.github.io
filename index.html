@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Super burger</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      body{
+        margin: 0;
+        padding: 0;
+      }
+
+      header::before{
+            content: "";
+            background: url('burg.jpg') no-repeat center/cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 1;
+            width: 100%;
+            height: 52%;
+            z-index: -1;
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            margin-left: 80px;
+           /* align-items: center; */
+           height: 300px;
+           justify-content: space-around;
+        }
+
+        .heading{
+          color: white;
+          font-size: 60px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-weight: bold;
+        }
+        .cont2{
+          margin: 50px;
+         
+        }
+        .cont3{
+          display: flex;
+        }
+        .ingre{
+          margin: 30px;
+          margin-left: 330px;
+        }
+        .cards{
+          display: flex;
+          justify-content: space-around;
+        }
+
+        .cont4{
+          margin: 50px;
+        }
+        span{
+          font-weight: bold;
+          color: rgb(237, 85, 25);
+        }
+        .cont5{
+          display: flex;
+          margin-top: 50px;
+        }
+        .quote{
+          border: 2px solid red;
+          background-color: rgb(71, 27, 27);
+          color: white;
+          width: 50vw;
+        }
+        .para{
+          text-align: center;
+          margin: 100px;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="contmain">
+    <!-- nav bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tooba's Restaurant</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              
+                <li class="nav-item">
+                  <a class="nav-link disabled">Contact</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+<div class="cont2">
+      <section>
+        <h1 class="heading">SUPER DEAL 
+          <br>
+          BURGER</h1>
+    </section>
+  </div>
+
+<div class="cont3">
+  <div class="burgerimg">
+    <img src="flybur.jpg" alt="">
+  </div>
+
+  <div class="ingre">
+  <div class="card mt-60" style="width: 28rem;">
+  <div class="card-body mt-60">
+    <h3 class="card-title strong">100% NATURAL FRESH <br> INGREDIENTS</h3>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <br>
+    <li>Lorem, ipsum dolor sit amet consectetur cupiditate.</li>
+    <li>Lorem ipsum dolor sit amet, consectetur Ab, rem?</li>
+    <li>Lorem ipsum dolor consectetur adipisicing elit?</li>
+    <li>Lorem ipsum dolor consectetur adipisicing elit.</li>
+    <br><br>
+    <a href="#" class="btn btn-danger">ABOUT US</a>
+  </div>
+</div> 
+  </div>
+</div>
+
+
+<div class="cont4">
+
+  <h2 class="text-center text-warning">MENU</h2>
+<br>
+<h1 class="text-center">WHAT'S NEW</h1>
+<br>
+<div class="cards">
+  <div class="card" style="width: 18rem;">
+    <img src="biryani.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Chickrn Biryani</h5>
+      <span>PRICE $20</span>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="zinger-shawarma.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Zinger Shawarma</h5>
+      <span>PRICE $80</span>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="pizza.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Pizza</h5>
+      <span>PRICE $90</span>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+<div class="cont4">
+
+
+<div class="cards">
+  <div class="card" style="width: 18rem;">
+    <img src="fries.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Fries</h5>
+      <span>PRICE $10</span>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="beefburger.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Beef Burder</h5>
+      <span>PRICE $20</span>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="kaba.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Kabab Burger</h5>
+      <span>PRICE $25</span>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+<div class="cont4">
+
+<div class="cards">
+  <div class="card" style="width: 18rem;">
+    <img src="cheeseburger.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Cheese Burger</h5>
+      <span>PRICE $40</span>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="tikkaburger.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Chicken Nuggets</h5>
+      <span>PRICE $35</span>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="cake-cup-500x500.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Cup Cakes</h5>
+      <span>PRICE $15</span>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+
+</div>
+</div>
+<button type="submit" class="btn btn-danger mx-auto d-block ">VIEW FULL</button>
+
+
+<div class="cont5">
+  <div class="quote">
+    <p class="para">“Tell me what you eat, and I will tell you who you are.” “So long as you have food in your mouth you have solved all questions for the time being.” “There is no sincere love than the love of food.” “If more of us valued food and cheer and song above hoarded gold, it would be a merrier world.”</p>
+    
+  </div>
+
+  <div class="eating">
+    <img src="eating.jpg" alt="">
+  </div>
+</div>
+
+<div class="cont6">
+  <h2 class="text-center text-warning">FOLLOW US</h2>
+  <h1 class="text-center bold">@INSTAGRAM</h1>
+  <p class="text-center bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, ut.</p>
+  <br>
+</div>
+
+
+
+
+<!-- footer -->
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-black text-muted">
+
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3 text-secondary"></i>Company name
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3 text-secondary"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+
+
+
+
+      </div>
+        
+      </body>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
